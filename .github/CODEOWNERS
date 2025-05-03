@@ -1,0 +1,14 @@
+# These owners will be the default owners for everything in
+# the repo. Unless a later match takes precedence,
+# they will be requested for review when someone opens a pull request.
+* @project-maintainers
+
+# Frontend code
+/src/ @frontend-team
+
+# API code
+/api/ @backend-team
+
+# Infrastructure code
+/.github/ @devops-team
+/supabase/ @database-team
